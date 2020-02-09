@@ -2,7 +2,7 @@
 
 We will be creating a database for learning management system which support videos and text (markdown).
 
-## Features - Platform
+### Features - Platform
 
 - Platform support courses
 - Platform support draft courses (upcoming courses)
@@ -23,14 +23,14 @@ We will be creating a database for learning management system which support vide
 - Coupon code also support unlimited validity with window on max number of usage
 - Referral token / link generated for each loggedin user
 
-## Features - Visitors
+### Features - Visitors
 
 - Visitors can view all courses
 - Visitors can view unlocked topics in a course
 - Visitors can view the discussion pages
 - Visitors can't view locked topics
 
-## Features - User
+### Features - User
 
 - Three types of user - Free plan, Pro plan and Enrolled users
 - Free users are users who just register to the site and login to explore the platform
@@ -54,7 +54,7 @@ We will be creating a database for learning management system which support vide
 - User can request for new courses through a form
 - user can apply to become an author
 
-## Features - Author
+### Features - Author
 
 - Author will be accepted based on the application
 - Author can create a new course
@@ -72,7 +72,7 @@ We will be creating a database for learning management system which support vide
 - Author can see the aggregated data of monthly revenue and active users on their courses
 - An active user for the course on particular month should have taken atleast 2 topics in the course (marked as completed)
 
-## Features - Admin
+### Features - Admin
 
 - Admin can view the requested courses from users
 - Admin can make a user as author
