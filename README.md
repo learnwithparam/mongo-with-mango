@@ -1,8 +1,25 @@
 # MongoDB for full stack developers
 
-We will be creating a database for learning management system which support videos and text (markdown).
+Creating a database for learning management system. (e.g., egghead, leveluptutorials, educative.io)
 
-### Features - Platform
+## What will you Learn
+
+- NoSQL concepts
+- MongoDB basics
+- Data Modelling
+- Embedding
+- One way embedding
+- Two way embedding
+- References
+- Schema designing best practices
+- Aggregation framework
+- Learn by doing: LMS (ecommerce) platform
+
+## Features
+
+LMS support a lot of features. Its a type of ecommnerce, infact a complex ecommerce. We will build the whole application database schema and queries in this book.
+
+### Platform
 
 - Platform support courses
 - Platform support draft courses (upcoming courses)
@@ -23,14 +40,14 @@ We will be creating a database for learning management system which support vide
 - Coupon code also support unlimited validity with window on max number of usage
 - Referral token / link generated for each loggedin user
 
-### Features - Visitors
+### Visitors
 
 - Visitors can view all courses
 - Visitors can view unlocked topics in a course
 - Visitors can view the discussion pages
 - Visitors can't view locked topics
 
-### Features - User
+### User
 
 - Three types of user - Free plan, Pro plan and Enrolled users
 - Free users are users who just register to the site and login to explore the platform
@@ -54,7 +71,7 @@ We will be creating a database for learning management system which support vide
 - User can request for new courses through a form
 - user can apply to become an author
 
-### Features - Author
+### Author
 
 - Author will be accepted based on the application
 - Author can create a new course
@@ -72,7 +89,7 @@ We will be creating a database for learning management system which support vide
 - Author can see the aggregated data of monthly revenue and active users on their courses
 - An active user for the course on particular month should have taken atleast 2 topics in the course (marked as completed)
 
-### Features - Admin
+### Admin
 
 - Admin can view the requested courses from users
 - Admin can make a user as author
@@ -80,3 +97,36 @@ We will be creating a database for learning management system which support vide
 - Admin can moderate dicussion question and replies (mark as spam)
 - Admin can view all authors
 - Admin can view the revenue of each authors
+
+### Folder structure
+
+- Domain based folder structure. 
+- Create a JSON file for model (model.json) 
+- Create mongodb files for each queries and name the query files based on JS convention (ex., save a query file using studio 3T)
+- Create seeds folder inside and create seeds JSON files for each models (May be create faker JS based data file if that makes sense and easy)
+
+Example folder structure,
+
+```
+users 
+courses
+topics
+coupons
+payments
+subscriptions
+settings
+referrals
+```
+
+Example for files inside a folder - `courses`
+
+```
+model.json
+seeds / index.js
+create-courses.nosql
+edit-courses.nosql
+add-topics-to-courses.nosql
+```
+
+_Note: The above are just examples, we can modify based on how the project goes_
+
