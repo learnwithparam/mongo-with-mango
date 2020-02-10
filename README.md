@@ -129,7 +129,7 @@ edit-courses.nosql
 add-topics-to-courses.nosql
 ```
 
-`queries.js` file will contains single line description of all the query files.
+`queries.js` file will contains single line description of all the `.nosql` files.
 
 _Note: The above are just examples, we can modify based on how the project goes_
 
