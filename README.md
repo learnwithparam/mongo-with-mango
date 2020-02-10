@@ -123,10 +123,13 @@ Example for files inside a folder - `courses`
 ```
 model.json
 seeds / index.js
+queries.js
 create-courses.nosql
 edit-courses.nosql
 add-topics-to-courses.nosql
 ```
+
+`queries.js` file will contains single line description of all the query files.
 
 _Note: The above are just examples, we can modify based on how the project goes_
 
