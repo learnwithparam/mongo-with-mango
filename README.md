@@ -123,13 +123,13 @@ Example for files inside a folder - `courses`
 ```
 model.json
 seeds / index.js
-queries.js
-create-courses.nosql
-edit-courses.nosql
-add-topics-to-courses.nosql
+index.js
+create-courses.js
+edit-courses.js
+add-topics-to-courses.js
 ```
 
-`queries.js` file will contains single line description of all the `.nosql` files.
+All are JS files for queries. We will use default node mongoDB driver for the code. The code will be same / similar to Studio 3T code.
 
 _Note: The above are just examples, we can modify based on how the project goes_
 
