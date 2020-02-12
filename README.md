@@ -116,6 +116,7 @@ payments
 subscriptions
 settings
 referrals
+...
 ```
 
 Example for files inside a folder - `courses`
